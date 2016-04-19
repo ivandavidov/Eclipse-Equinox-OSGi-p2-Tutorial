@@ -1,6 +1,6 @@
 @echo off
 
-set ORG_ECLIPSE_EQUINOX_LAUNCHER_VERSION=1.3.100.v20150511-1540
+call environment_variables.cmd
 
 call 1_prepare.cmd
 
