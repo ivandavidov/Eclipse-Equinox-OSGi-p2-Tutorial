@@ -19,4 +19,5 @@
           |
           +-- content.xml
           |
-          +-- readme.txt        (current file)
+          +-- README.txt        (current file)
+
