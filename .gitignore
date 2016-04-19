@@ -1,2 +1,7 @@
 equinox_repo
 !equinox_repo/README.txt
+
+configuration/
+p2/
+test_profile/
+test_repo/
