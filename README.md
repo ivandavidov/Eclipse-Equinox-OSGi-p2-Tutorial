@@ -9,7 +9,7 @@ This project includes Eclipse Equinox OSGi specific samples which cover the foll
 
 * Console scenario: Start an Equinox OSGi console.
 
-These scenarions run only on Windows as `.cmd` scripts are provided.
+These scenarios run only on Windows as `.cmd` scripts are provided.
 TODO - add explanations about the agent and the connection between the downloaded equinox repository, the agent and the applications.
 
 ## Getting started
