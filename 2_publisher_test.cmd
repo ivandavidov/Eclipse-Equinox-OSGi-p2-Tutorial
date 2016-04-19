@@ -1,10 +1,8 @@
 @echo off
 
-set ORG_ECLIPSE_OSGI_VERSION=3.10.101.v20150820-1432
-set ORG_ECLIPSE_EQUINOX_LAUNCHER_VERSION=1.3.100.v20150511-1540
+call environment_variables.cmd
 
-if not exist configuration mkdir configuration
-if not exist configuration\config.ini copy /y configuration_original\config.ini configuration
+call 1_prepare.cmd
 
 if exist test_repo rmdir /s /q test_repo
 if not exist test_repo\plugins mkdir test_repo\plugins
