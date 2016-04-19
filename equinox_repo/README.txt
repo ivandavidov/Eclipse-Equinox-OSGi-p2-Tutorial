@@ -1,4 +1,4 @@
-1) Download Equinox OSGi p2 repository:
+1) Download Equinox OSGi p2 repository (the file equinox-SDK-<version>.zip):
 
    http://download.eclipse.org/equinox/drops/R-Mars.1-201509040015/index.php   
 
