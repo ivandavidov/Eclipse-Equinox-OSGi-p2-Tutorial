@@ -1,5 +1,7 @@
 @echo off
 
-set ORG_ECLIPSE_OSGI_VERSION=3.10.102.v20160118-1700
-set ORG_ECLIPSE_EQUINOX_LAUNCHER_VERSION=1.3.100.v20150511-1540
-
+rem Detect the runnable file names for the actual Equinox version.
+cd "equinox_repo\plugins"
+for /f %%i in ('dir /b org.eclipse.osgi_*.jar') do set OSGI_JAR=%%i
+for /f %%i in ('dir /b org.eclipse.equinox.launcher_*.jar') do set OSGI_LAUNCHER_JAR=%%i
+cd ..\..
